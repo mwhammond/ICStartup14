@@ -22,7 +22,9 @@
 <div class="row" style="padding-top:30px">
 
   <div class="small-4 large-4 columns"><h3>Imperial entrepreneurship ecosystem '14</h3></div>
-  <div class="small-4 large-8 columns explanation" id="explanation"><h6>Mouse over blocks for explanation</h6></div>
+  <div class="small-4 large-8 columns explanation" id="explanation"><h6>Explore the ecosystem</h6><p>This is the developing big picture of entrepreneurship at Imperial.</p><p><b>Mouse over boxes to find out more<b></p>
+
+  </div>
 
 </div>
 
@@ -57,7 +59,8 @@
 <div class="row" style="padding-top:20px">
   <div class="small-1 large-2 columns"><div class="box" id="tech"><p>Tech city comes to Imperial</p></div></div>
   <div class="small-1 large-3 columns"><div class="box" id="future"><p>Build the future with Google, Facebook, ARM, Intel...</p></div></div>
-  <div class="small-1 large-3 columns"><div class="box" id="hack"><p>Hackathon, Start-up w/end, Start-up careers fair</p></div></div>
+  <div class="small-1 large-2 columns"><div class="box" id="hack"><p>Hackathon, Start-up w/end, Start-up careers fair</p></div></div>
+  <div class="small-1 large-1 columns"><div class="boxcohort" id="ied"><p>IE&ampD</p></div></div>
   <div class="small-1 large-3 columns"><div class="boxcohort" id="bcc"><p>Idea -> Business (canvas), 1:1 mentoring + vouchers</p></div></div>
   <div class="small-1 large-1 columns"><div class="boxcohort" id="showcase"><p>Demo Invest</p></div></div>
 
@@ -122,7 +125,7 @@
 
 <script>
 $('#codeclub').mouseover(function() {
-  $('#explanation').html("<div id='first'><img src='img/hack.png'></div><div><h2>SaaS Club & Coder Dojo</h2><p>Great things come from geeky guys getting together and building things. SaaS club is monthly dev group where we work on our own things, help each other, do a mini hack or bring in guest speakers on technical subjets, all over beer and pizza. </p><p><b>Coder Dojo</b> is for the basics, it's designed to give you the skills to get something online from basic wordpress and videos to programming and frameworks.</p></div>");
+  $('#explanation').html("<div id='first'><img src='img/hack.png'></div><div><h2>SaaS Club & Coder Dojo</h2><p>Great things come from geeks getting together and just building things for fun. SaaS club is monthly dev group where students work on our own things, help each other, do a mini hack or bring in guest speakers on technical subjets, all over beer and pizza. </p><p><b>Coder Dojo</b> is for the basics, it's designed to give students the skills to get something online from basic wordpress and videos to programming and frameworks.</p></div>");
 });
 $('#thinkspace').mouseover(function() {
   $('#explanation').html("<div id='first'><img src='img/west.png'></div><div><h2>ThinkSpace events</h2><p>Talks and networking at Imperial West campus including the DigiTalks series</p></div>");
@@ -131,13 +134,13 @@ $('#bizschool').mouseover(function() {
   $('#explanation').html("<div id='first'><img src='img/biz.png'></div><div><h2>Business School</h2><p>A seminal series of talks by leading academic and industry figures on current topics in technology.</p></div>");
 });
 $('#ie').mouseover(function() {
-  $('#explanation').html("<div id='first'><img src='img/ie.png'></div><div><h2>Entrepreneurial societies</h2><p>Imperial Entrepreneurs, Right Click and Design Collective all run excellent events ranging from talks from start-up CEOs to office visits at IDEO and trips to Silicon Valley</p></div>");
+  $('#explanation').html("<div id='first'><img src='img/ie.png'></div><div><h2>Entrepreneurial societies</h2><p>Imperial Entrepreneurs, Right Click (Business school entrepreneurship soc) and Design Collective all run excellent events ranging from talks by start-up CEOs to office visits at IDEO and trips to Silicon Valley</p></div>");
 });
 $('#space').mouseover(function() {
   $('#explanation').html("<div id='first'><img src='img/coworking.png'></div><div><h2>Co-working space</h2><p>This is where teams can build their product and their business alongside like minded people. There will be dedicated sessions every wednesday afternoon with mentors present but it will also be open until midnight. Sucessful teams can use dedicated space at Imperial West. The space will also be used by societies such as Robotics and Design Collective for hackathons etc. to aid cross polination of ideas.</p></div>");
 });
 $('#pitch').mouseover(function() {
-  $('#explanation').html("<div id='first'><img src='img/drinks.png'></div><div><h2>Pitch n' drink</h2><p>Informal monthly social evenings which give people a chance to pitch, meet potential co-founders and quiz more experienced teams and mentors.</p></div>");
+  $('#explanation').html("<div id='first'><img src='img/drinks.png'></div><div><h2>Pitch n' drink</h2><p>Informal monthly entrepreneurially focused social evenings which give people a chance to pitch, meet potential co-founders and quiz more experienced teams and mentors. This light touch, low barrier to entry method is essential to engage the vast majority of students who still think they would never be able to start a business.</p></div>");
 });
 
 
@@ -145,7 +148,7 @@ $('#pitch').mouseover(function() {
 
 
 $('#tech').mouseover(function() {
-  $('#explanation').html("<div id='first'><img src='img/techcity.png'></div><div><h2>Tech City comes to Imperial</h2><p>The Three Beards will bring hundreds of engineers and investors over here to put Imperial on the map as part of the London Tech Entrepreneurial ecosystem. This will be a fantastic opportunity for both students and academics to meet potential colaberators, employers and investors.</p></div>");
+  $('#explanation').html("<div id='first'><img src='img/techcity.png'></div><div><h2>Tech City comes to Imperial</h2><p>The Three Beards will bring hundreds of engineers and investors over to Imperial and put it on the map as part of the London Tech Entrepreneurial ecosystem. This will be a fantastic opportunity for both students and academics to meet potential colaberators, employers and investors.</p></div>");
 });
 
 $('#future').mouseover(function() {
@@ -153,7 +156,7 @@ $('#future').mouseover(function() {
 });
 
 $('#hack').mouseover(function() {
-  $('#explanation').html("<div id='first'><img src='img/careers.png'></div><div><h2>Hackathons, careers etc.</h2><p>Hackathons and makeathons are an essential part of creating innovative products and services, building tams and learning that failing fast is good. We run everything from hardcore coding hackathons to more business focused start-up weekends.</p><p>Not ready to make the jump? Dip a toe in with an internship in a start-up</p></div>");
+  $('#explanation').html("<div id='first'><img src='img/careers.png'></div><div><h2>Hackathons, careers etc.</h2><p>Hackathons and makeathons are an essential part of creating innovative products and services, building teams and learning that failing fast is good. We run everything from hardcore coding hackathons to more business focused start-up weekends.</p><p>Not ready to make the jump? Dip a toe in with an internship in a start-up</p></div>");
 });
 
 $('#bcc').mouseover(function() {
@@ -162,6 +165,10 @@ $('#bcc').mouseover(function() {
 
 $('#showcase').mouseover(function() {
   $('#explanation').html("<div id='first'><img src='img/vc.png'></div><div><h2>Showcase and investment</h2><p>A showcase of the businesses created at Imperial and a chance to pitch to investors. Many teams will then take up permenant space at ThinkSpace.</p></div>");
+});
+
+$('#ied').mouseover(function() {
+  $('#explanation').html("<div id='first'><img src='img/ied.png'></div><div><h2>IE&D</h2><p>Business school students help to take university and corperate IP to market</p></div>");
 });
 
 
